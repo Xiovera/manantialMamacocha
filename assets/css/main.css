@@ -1,0 +1,18 @@
+*{
+	/*outline: 1px solid red;*/
+}
+/*change color section */
+#background{
+	height: 150px;
+}
+/*buttons section*/
+h5{
+	color: white;
+}
+#buttons{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	height: 520px;
+	background: url(../img/fondo-color.jpg) no-repeat center center;
+	background-size: cover;
+}
