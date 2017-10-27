@@ -1,0 +1,613 @@
+/* clouds */
+#clouds-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+}
+#cloud-2, #cloud-3, #cloud-4, #cloud-4 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 2;
+}
+
+#cloud-1_1 {
+  content: "";
+  height: 259px;
+  background-image: url("../img/clouds/cloud0.png");
+  background-repeat: repeat-x;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+  background-position: 0px center;
+  opacity: .5;
+  background-size: contain;
+  -webkit-animation-name: cloud_0;
+  -webkit-animation-duration: 150s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: cloud_0;
+  -moz-animation-duration: 150s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: cloud_0;
+  -o-animation-duration: 150s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: cloud_0;
+  animation-duration: 150s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+#grad {
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  bottom: -72px;
+  left: 0;
+  right: 0;
+  background-repeat: repeat-x;
+  background-image: url(../img/clouds/cloud-grad.png);
+}
+
+#cloud-2 {
+  background-image: url(../img/clouds/cloud1.png);
+  width: 616px;
+  height: 283px;
+  opacity: .3;
+  top: 0px;
+  left: 5vw;
+  -webkit-animation-name: cloud_2;
+  -webkit-animation-duration: 200s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: cloud_2;
+  -moz-animation-duration: 200s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: cloud_2;
+  -o-animation-duration: 200s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: cloud_2;
+  animation-duration: 200s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes cloud_2 {
+
+  0% {
+    left: 5vw;
+  }
+
+  33% {
+    left: 105vw;
+  }
+
+  66% {
+    left: -282px;
+  }
+
+  100% {
+    left: 5vw;
+  }
+}
+
+@-moz-keyframes cloud_2 {
+  0% {
+    left: 5vw;
+  }
+
+  33% {
+    left: 105vw;
+  }
+
+  66% {
+    left: -282px;
+  }
+
+  100% {
+    left: 5vw;
+  }
+}
+
+@-o-keyframes cloud_2 {
+  0% {
+    left: 5vw;
+  }
+
+  33% {
+    left: 105vw;
+  }
+
+  66% {
+    left: -282px;
+  }
+
+  100% {
+    left: 5vw;
+  }
+}
+
+@keyframes cloud_2 {
+  0% {
+    left: 5vw;
+  }
+
+  33% {
+    left: 105vw;
+  }
+
+  66% {
+    left: -282px;
+  }
+
+
+  100% {
+    left: 5vw;
+  }
+}
+
+
+#cloud-3 {
+  background-image: url(../img/clouds/cloud2.png);
+  width: 1000px;
+  height: 291px;
+  bottom: 0px;
+  left: 0px;
+  -webkit-animation-name: slow-left-to-right;
+  -webkit-animation-duration: 300s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: slow-left-to-right;
+  -moz-animation-duration: 300s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: slow-left-to-right;
+  -o-animation-duration: 300s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: slow-left-to-right;
+  animation-duration: 300s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes slow-left-to-right {
+  0% {
+    left: 0px;
+  }
+
+ 
+  33% {
+    left: 100vw;
+  }
+
+ 
+  66% {
+    left: -1000px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+
+@-moz-keyframes slow-left-to-right {
+  
+  0% {
+    left: 0px;
+  }
+
+ 
+  33% {
+    left: 100vw;
+  }
+
+
+  66% {
+    left: -1000px;
+  }
+
+  
+  100% {
+    left: 0px;
+  }
+}
+
+@-o-keyframes slow-left-to-right {
+
+  0% {
+    left: 0px;
+  }
+
+
+  33% {
+    left: 100vw;
+  }
+
+ 
+  66% {
+    left: -1000px;
+  }
+
+
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes slow-left-to-right {
+  
+  0% {
+    left: 0px;
+  }
+
+
+  33% {
+    left: 100vw;
+  }
+
+
+  66% {
+    left: -1000px;
+  }
+
+ 
+  100% {
+    left: 0px;
+  }
+}
+
+
+#cloud-4 {
+  width: 616px;
+  height: 283px;
+  background-image: url(../img/clouds/cloud4.png);
+  opacity: 1;
+  bottom: -20px;
+  right: 0px;
+  -webkit-animation-name: cloud_4;
+  -webkit-animation-duration: 400s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: cloud_4;
+  -moz-animation-duration: 400s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: cloud_4;
+  -o-animation-duration: 400s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: cloud_4;
+  animation-duration: 400s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes cloud_4 {
+ 
+  0% {
+    right: 0px;
+  }
+
+
+  33% {
+    right: 100vw;
+  }
+
+  66% {
+    right: 616px;
+  }
+
+
+  100% {
+    right: 0px;
+  }
+}
+
+@-moz-keyframes cloud_4 {
+
+  0% {
+    right: 0px;
+  }
+
+  33% {
+    right: 100vw;
+  }
+
+
+  66% {
+    right: 616px;
+  }
+
+  
+  100% {
+    right: 0px;
+  }
+}
+
+@-o-keyframes cloud_4 {
+
+  0% {
+    right: 0px;
+  }
+
+
+  33% {
+    right: 100vw;
+  }
+
+
+  66% {
+    right: 616px;
+  }
+
+  
+  100% {
+    right: 0px;
+  }
+}
+
+@keyframes cloud_4 {
+  
+  0% {
+    right: 0px;
+  }
+
+ 
+  33% {
+    right: 100vw;
+  }
+
+ 
+  66% {
+    right: 616px;
+  }
+
+ 
+  100% {
+    right: 0px;
+  }
+}
+
+
+#cloud-7 {
+  width: 642px;
+  height: 383px;
+  background-image: url(../img/clouds/cloud3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 1;
+  bottom: -100px;
+  right: 0px;
+  opacity: .5;
+  -webkit-animation-name: slow-right-to-left;
+  -webkit-animation-duration: 200s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: slow-right-to-left;
+  -moz-animation-duration: 200s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: slow-right-to-left;
+  -o-animation-duration: 200s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: slow-right-to-left;
+  animation-duration: 200s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes slow-right-to-left {
+
+  0% {
+    right: 0px;
+  }
+
+  
+  33% {
+    right: 100vw;
+  }
+
+
+  66% {
+    right: -642px;
+  }
+
+
+  100% {
+    right: 0px;
+  }
+}
+
+@-moz-keyframes slow-right-to-left {
+ 
+  0% {
+    right: 0px;
+  }
+
+ 
+  33% {
+    right: 100vw;
+  }
+
+ 
+  66% {
+    right: -642px;
+  }
+
+
+  100% {
+    right: 0px;
+  }
+}
+
+@-o-keyframes slow-right-to-left {
+ 
+  0% {
+    right: 0px;
+  }
+
+  
+  33% {
+    right: 100vw;
+  }
+
+
+  66% {
+    right: -642px;
+  }
+
+  
+  100% {
+    right: 0px;
+  }
+}
+
+@keyframes slow-right-to-left {
+ 
+  0% {
+    right: 0px;
+  }
+
+  
+  33% {
+    right: 100vw;
+  }
+
+  
+  66% {
+    right: -642px;
+  }
+
+  
+  100% {
+    right: 0px;
+  }
+}
+
+
+#cloud-8 {
+  width: 642px;
+  height: 383px;
+  background-image: url("../img/clouds/cloud3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 1;
+  top: -115px;
+  left: 60vw;
+  opacity: .3;
+  -webkit-animation-name: cloud_8;
+  -webkit-animation-duration: 400s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: cloud_8;
+  -moz-animation-duration: 400s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: cloud_8;
+  -o-animation-duration: 400s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  animation-name: cloud_8;
+  animation-duration: 400s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes cloud_8 {
+  
+  0% {
+    left: 60vw;
+  }
+
+ 
+  33% {
+    left: -616px;
+  }
+
+  
+  66% {
+    left: 100vw;
+  }
+
+ 
+  100% {
+    left: 60vw;
+  }
+}
+
+@-moz-keyframes cloud_8 {
+  
+  0% {
+    left: 60vw;
+  }
+
+ 
+  33% {
+    left: -616px;
+  }
+
+  66% {
+    left: 100vw;
+  }
+
+ 
+  100% {
+    left: 60vw;
+  }
+}
+
+@-o-keyframes cloud_8 {
+  
+  0% {
+    left: 60vw;
+  }
+
+ 
+  33% {
+    left: -616px;
+  }
+
+  66% {
+    left: 100vw;
+  }
+
+ 
+  100% {
+    left: 60vw;
+  }
+}
+
+@keyframes cloud_8 {
+ 
+  0% {
+    left: 60vw;
+  }
+
+  33% {
+    left: -616px;
+  }
+
+ 
+  66% {
+    left: 100vw;
+  }
+
+  100% {
+    left: 60vw;
+  }
+}

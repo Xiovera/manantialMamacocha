@@ -1,18 +1,101 @@
 *{
-	/*outline: 1px solid red;*/
+	outline: 1px solid red;
+	font-family: 'Roboto';
 }
-/*change color section */
-#background{
-	height: 150px;
+.brand-logo{
+	color:white;
+	font-family: 'Courgette', cursive !important;
+	margin-left: 20px;
 }
-/*buttons section*/
-h5{
+
+.navbar-dark {
+  background-color: rgba(0,0,0,.6);
+}
+li{
+	font-family: 'Roboto';
+}
+
+nav ul a{
+	margin-left: 20px !important;
+}
+.nav>li>a:focus,
+.nav>li>a:hover {
+  background-color: inherit;
+  color: #4DB6AC;
+}
+
+.nav .divider {
+  
+  width: 1px;
+  height: 16px;
+  margin: 32px 17px;
+}
+
+.navbar-logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 150px !important;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  float: left;
+  background-image: url('../assets/img/logo.png');
+}
+/*hero*/
+.slides{
+	height:480px !important;
+	z-index: -1 !important;
+}
+.carousel.carousel-slider.center.initialized {
+    height: 470px !important;
+}
+.carousel.carousel-slider .carousel-item h2 {
+
+    margin-top: 220px !important;
+}
+/*footer*/
+.apoyo{
+	width: 65%;
+}
+.textito{
+	color:white;
+	margin-left: 8px;
+	margin-bottom: 0px;
+}
+
+/*footer*/
+footer{
+	font-family: 'Roboto';
+}
+footer p{
+	font-family: 'Amatic SC', cursive;
+}
+footer .row{
+	margin-bottom: 0px;
+	margin-top: 40px;
+}
+
+footer.grey.darken-4 {
+    margin-top: 50px !important;
+   }
+
+.fa-facebook-official{
 	color: white;
+	background-color: blue;
+	font-size: 40px !important;
 }
-#buttons{
-	padding-top: 10px;
-	padding-bottom: 20px;
-	height: 520px;
-	background: url(../img/fondo-color.jpg) no-repeat center center;
-	background-size: cover;
+
+.fa-youtube-play{
+	color: white;
+	background-color: red;
+	font-size: 40px !important;
+}
+
+#derechos{
+	color: #4DB6AC;
 }

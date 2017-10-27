@@ -3,62 +3,145 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Paleta de colores</title>
-	<link rel="shortcut icon" type="image/x-icon" href="assets/img/1505566335.ico">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>Manantial de Mamacocha</title>
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Amatic+SC" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
-
+	<link rel="stylesheet" href="assets/css/cloudsbu.css">
+	<link rel="stylesheet" type="text/javascript" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/5bc7663168.js"></script>
 </head>
 <body>
-	<!-- change color section -->
-	<header>
-		<section id="background">
-			
-		</section>
-	</header>
-	<!-- buttons section -->
-	<section id="buttons">
-		<center>
-			<h5>Por favor, seleccione un botón</h5>
-		</center>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-4">
-					<center>
-						<button type="button" onclick="changeColor1()" class="btn-floating waves-effect waves-light red"><i class="material-icons">red</i></button>
-					</center>
-				</div>
-				<div class="col-xs-4 col-sm-4 col-md-4">
-					<center>
-						<button type="button" onclick="changeColor2()" class="btn-floating waves-effect waves-light blue"><i class="material-icons">blue</i></button>
-					</center> 
-				</div>
-				<div class="col-xs-4 col-sm-4 col-md-4">
-					<center>
-						<button type="button" onclick="changeColor3()" class="btn-floating waves-effect waves-light yellow"><i class="material-icons">yellow</i></button>
-					</center>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5">
-					<center>
-						<a class=" waves-effect waves-light btn">Personalizar</a>
-					</center>
-				</div>
-			</div>
-			</div>
-		</div>
-		
-	</section>
+<!-- header -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="ayo.html">Ayo</a></li>
+  <li><a href="mamacocha.html">Mamacocha</a></li>
+</ul>
+<ul id="dropdown2" class="dropdown-content">
+  <li><a href="aqp-ayo.html">Arequipa-Ayo</a></li>
+  <li><a href="ayo-mamacocha.html">Ayo-Mamacocha</a></li>
+</ul>
+<ul id="dropdown3" class="dropdown-content">
+  <li><a href="#!">Turismo</a></li>
+  <li><a href="#!">Aventura</a></li>
+</ul>
+ <nav data-activates="mobile-demo" class="button-collapse">
+    <div class="nav-wrapper teal lighten-2">
+      <a href="#!" class="brand-logo">Mamacocha</a>
+      <!-- <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a> -->
+      <ul class="right hide-on-med-and-down">
+        <li><a href="origen.html">Origen</a></li>
+        <li><a href="llegar.html">Cómo llegar</a></li>
+        <li><a href="notas.html">Notas Viajeras</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">        
+        <li><a href="origen.html" class="dropdown-button" href="#!" data-activates="dropdown1">Origen<i class="material-icons right">arrow_drop_down</i></a>
+        </li>
+        <li><a href="llegar.html" class="dropdown-button" href="#!" data-activates="dropdown2">Cómo llegar<i class="material-icons right">arrow_drop_down</i></a>
+        </li>
+        <li><a href="notas.html" class="dropdown-button" href="#!" data-activates="dropdown3">Notas Viajeras<i class="material-icons right">arrow_drop_down</i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+	<script type="text/javascript">
+		$( document ).ready(function(){
+			$(".button-collapse").sideNav();
+		});
+	</script>
+<!-- fin header -->
+<!-- slider -->
+<div class="slider">
+	<ul class="slides">
+      <li>
+        <img src="assets/img/hermoso.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h2>Bienvenido a la inolvidable aventura</h2>
+          <h5 class="light grey-text text-lighten-3">...de conectarte con la naturaleza</h5>
+        </div>
+      </li>
+      <li>
+        <img src="assets/img/15.png"> <!-- random image -->
+        <div class="caption center-align">
+          <h2>¿Estás listo para empezar?</h2>
+          <h5 class="light grey-text text-lighten-3">¡acompáñanos!</h5>
+        </div>
+      </li>
+      <li>
+        <img src="assets/img/nutrias.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Conoceras el hogar de la nutria</h3>
+          <h5 class="light grey-text text-lighten-3">...preservemos una especie en extinción</h5>
+        </div>
+      </li>
+      <li>
+        <img src="assets/img/20.png"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Conéctate con cálidas personas</h3>
+          <h5 class="light grey-text text-lighten-3">¡los pobladores de Ayo te esperan!</h5>
+        </div>
+      </li>
+      <li>
+        <img src="assets/img/21.png"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Empecemos nuestro recorrido</h3>
+          <h5 class="light grey-text text-lighten-3">¡únete a nosotras!</h5>
+        </div>
+      </li>
+    </ul>
+    <!-- <div class="carousel-fixed-item center">
+      <a href="origen.html" class="btn waves-effect white teal lighten-2 darken-text-2">¡Quiero más información!</a>
+    </div> -->
+  </div>
+<script type="text/javascript">
+	$(document).ready(function(){
+      $('.slider').slider();
+    });
+</script>
+<!-- cloud section -->
+	<!-- <div id="clouds-wrapper">
+	  <div id="cloud-1"></div>
+	  <div id="cloud-1_1"></div>
+	  <div id="grad"></div>
+	  <div id="cloud-2"></div>
+	  <div id="cloud-3"></div>
+	  <div id="cloud-4"></div>
+	  <div id="cloud-5"></div>
+	  <div id="cloud-6"></div>
+	  <div id="cloud-7"></div>
+	  <div id="cloud-8"></div>
+	</div> -->
+<!-- footer -->
+  	<footer class="grey darken-4">
+	  	<div class="row">
+	  		<p class="textito">Agradecimientos especiales a:</p>
+	  		<div class="col s1 m1 l1">
+	  			<a target="_blank" href="https://www.facebook.com/creadorasperu/"><img class="apoyo" src="assets/img/creadoras.png" alt="creadoras"></a>
+	  		</div>
+	  		<div class="col s1 m1 l1">
+	  			<a target="_blank" href="http://municipiocastilla.gob.pe/index/"><img class="apoyo" src="assets/img/EscudoMPC.png" alt="creadoras"></a>
+	  		</div>
+	  		<div class="col s8 m8 l8"></div>
+	  		<div class="col s1 m1 l1">
+	  			<!-- <a target="_blank" href="https://www.facebook.com/MamacochaManantial/"><i class="fa fa-facebook-official" aria-hidden="true"></i</a> -->
+	  		</div>
+	  		<div class="col s1 m1 l1">
+	  			<a target="_blank" href="https://www.youtube.com/watch?v=DhmJoHHTOUo&t=11s"><i class="fa fa-youtube-play" aria-hidden="true"></i></i</a>
+	  		</div>
+	  	</div>
+	  	<div class="footer-copyright">
+	  		<center>
+            	<div id="derechos" class="container">
+            © 2017 Copyright
+            	</div>
+            </center>
+        </div>
+  	</footer>
 
-
-
-
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 	<script src="assets/js/main.js"></script>	
 </body> 
